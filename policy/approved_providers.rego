@@ -6,6 +6,7 @@ deny[msg] {
     resource_change.provider_name != "registry.terraform.io/hashicorp/random"
     resource_change.provider_name != "registry.terraform.io/hashicorp/azurerm"
     resource_change.provider_name != "registry.terraform.io/hashicorp/google"
+    resource_change.provider_name != "registry.terraform.io/sumologic/sumologic"
     resource_change.provider_name != "registry.terraform.io/hashicorp/local"
     resource_change.provider_name != "registry.terraform.io/hashicorp/null"
 
